@@ -1,0 +1,48 @@
+
+#Please be advised that certain temperature-related options are world-specific and are located in <Path to your world folder>/serverconfig/toughasnails-server.toml.
+[general]
+	#Number of ticks to delay changing the player's temperature after their positional temperature changes.
+	#Range: > 0
+	positional_temperature_change_delay = 200
+	#Number of ticks to delay taking damage when icy or hot.
+	#Range: > 0
+	extremity_damage_delay = 200
+
+[altitude]
+	#Y level to drop the temperature at when above
+	#Range: -64 ~ 1024
+	temperature_drop_altitude = 1024
+	#Y level to rise the temperature at when below
+	#Range: -64 ~ 1024
+	temperature_rise_altitude = -64
+	#Y level above which environmental modifiers are applied
+	#Range: -64 ~ 256
+	environmental_modifier_altitude = 55
+
+[blocks]
+	#The proximity which constitutes near a heat or cool source
+	#Range: 1 ~ 16
+	near_heat_cool_proximity = 7
+
+[immersion]
+	#Amount to change the temperature by when on fire.
+	#Range: -4 ~ 4
+	on_fire_temperature_change = 2
+	#Amount to change the temperature by when in powdered snow.
+	#Range: -4 ~ 4
+	powdered_snow_temperature_change = -2
+	#Amount to change the temperature by when wet.
+	#Range: -4 ~ 4
+	wet_temperature_change = -1
+	#Amount to change the temperature by when snowing.
+	#Range: -4 ~ 4
+	snow_temperature_change = -1
+
+[time]
+	#Amount to change the temperature at night when the original temperature is not hot.
+	#Range: -4 ~ 4
+	night_temperature_change = -1
+	#Amount to change the temperature at night when the original temperature is hot.
+	#Range: -4 ~ 4
+	night_hot_temperature_change = -2
+

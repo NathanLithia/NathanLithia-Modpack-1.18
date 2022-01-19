@@ -1,0 +1,15 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "NathanLithia",
+      "uniqueId": "f28f52e7-41d4-4768-b6b2-fe27addea7a2"
+    },
+    "time": 1642609954589,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/4WdwsAisne"
+    }
+  }
+]
