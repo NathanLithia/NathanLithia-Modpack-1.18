@@ -9,7 +9,7 @@ if not os.path.exists("mods/nlmeta"):
 
 
 mods = os.listdir("mods")
-metafiles = os.listdir("mods/nlmeta")
+metafiles = os.listdir("mods/nlmeta/")
 md5 = hashlib.md5()
 BLOCK_SIZE = 65536
 
@@ -20,8 +20,8 @@ for mod in mods:
 
 
 for file in metafiles:
-    if mod.endswith((".NLMeta")):
-        os.remove("mods/nlmeta/"+mod)
+    if file.endswith((".NLMeta")):
+        os.remove("mods/nlmeta/"+file)
 
 
 for mod in mods:
