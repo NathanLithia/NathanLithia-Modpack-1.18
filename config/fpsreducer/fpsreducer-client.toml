@@ -8,7 +8,7 @@
 	waitingTime = 300
 	#Frame rate during reducing.
 	#Range: 1 ~ 60
-	idleFps = 10
+	idleFps = 24
 	#Frame rate during GUI screen(Inventory/Menu) is opened.(0:OFF)
 	#Range: 0 ~ 60
 	guiScreenFps = 0
